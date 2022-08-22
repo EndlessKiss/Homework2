@@ -8,7 +8,7 @@ public class Main {
         long e = 5L;
         float f = 6.1f;
         double g = 7.1d;
-        char h = 12;
+        char h = 11;
         char i = '!';
         boolean j = true;
 
