@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        hw2v2();
 
         var a = 1;
         byte b = 2;
@@ -7,8 +8,8 @@ public class Main {
         int d = 4;
         long e = 5L;
         float f = 6.1f;
-        double g = 7.1d;
-        char h = 12;
+        double g = 7.1;
+        char h = 11;
         char i = '!';
         boolean j = true;
 
@@ -65,6 +66,42 @@ public class Main {
         System.out.println("Кристина теперь получает " + newSalaryCristine + " рублей." + " Годовой доход вырос на " + differenceCristine + " рублей.");
 
 
+
+    }
+    public static void hw2v2(){
+        var dog = 8f;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        dog = dog + 4f;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+         dog = dog - 3.5f;
+         cat = cat - 1.6;
+         paper = paper - 7639;
+
+         var friend = 19;
+        System.out.println(friend);
+         friend = friend +2;
+        System.out.println(friend);
+         friend = friend /7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
 
 
 
